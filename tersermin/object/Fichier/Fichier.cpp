@@ -17,6 +17,10 @@ string Fichier::getSrc(){
     return this->srcname;
 }
 
+string Fichier::getDst(){
+    return this->dstname;
+}
+
 void Fichier::setDst(){
 }
 

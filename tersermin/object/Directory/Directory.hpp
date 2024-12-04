@@ -17,7 +17,7 @@ class Directory{
         Directory();
         ~Directory();
         set<string> getDir(vector<string> listFiles);
-        void createDirectory(string destination);
+        void createDirectory(string source,string destination);
 };
 
 #include "./Directory.cpp"

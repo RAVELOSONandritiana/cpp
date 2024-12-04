@@ -17,9 +17,10 @@ class Fichier{
         Fichier();
         ~Fichier();
         void setSrc(string src);
+        string getSrc();
         void setDst();
         void setDst(string dst);
-        string getSrc();
+        string getDst();
         vector<string> getAllFiles();
         void formatList();
 };
